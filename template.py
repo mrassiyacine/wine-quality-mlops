@@ -1,6 +1,5 @@
 import logging
 import os
-from pathlib import Path
 
 project_name = "wine-quality-mlops"
 

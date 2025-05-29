@@ -1,1 +1,9 @@
-2025-05-26 23:51:18,968 - wine-quality-mlops - INFO - welcome logging.
+2025-05-29 12:19:39,837 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Starting the Data Ingestion Pipeline... <<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 12:19:39,838 - wine-quality-mlops - INFO - YAML file loaded from config/config.yaml
+2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Created directory: artifacts
+2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Created directory: artifacts/data_ingestion
+2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Data Ingestion Pipeline started.
+2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Directory already exists: artifacts/data_ingestion
+2025-05-29 12:19:39,841 - wine-quality-mlops - INFO - Extracted files to: artifacts/data_ingestion
+2025-05-29 12:19:39,841 - wine-quality-mlops - INFO - Data Ingestion Pipeline completed.
