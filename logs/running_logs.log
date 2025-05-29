@@ -1,9 +1,33 @@
-2025-05-29 12:19:39,837 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Starting the Data Ingestion Pipeline... <<<<<<<<<<<<<<<<<<<<<<<
-2025-05-29 12:19:39,838 - wine-quality-mlops - INFO - YAML file loaded from config/config.yaml
-2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Created directory: artifacts
-2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Created directory: artifacts/data_ingestion
-2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Data Ingestion Pipeline started.
-2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - File already exists: artifacts/data_ingestion/data.zip
-2025-05-29 12:19:39,839 - wine-quality-mlops - INFO - Directory already exists: artifacts/data_ingestion
-2025-05-29 12:19:39,841 - wine-quality-mlops - INFO - Extracted files to: artifacts/data_ingestion
-2025-05-29 12:19:39,841 - wine-quality-mlops - INFO - Data Ingestion Pipeline completed.
+2025-05-29 14:25:14,160 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Starting the Data Ingestion Pipeline... <<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 14:25:14,162 - wine-quality-mlops - INFO - YAML file loaded from config/config.yaml
+2025-05-29 14:25:14,163 - wine-quality-mlops - INFO - YAML file loaded from schema.yaml
+2025-05-29 14:25:14,164 - wine-quality-mlops - INFO - Created directory: artifacts
+2025-05-29 14:25:14,164 - wine-quality-mlops - INFO - Created directory: artifacts/data_ingestion
+2025-05-29 14:25:14,164 - wine-quality-mlops - INFO - Data Ingestion Pipeline started.
+2025-05-29 14:25:14,164 - wine-quality-mlops - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-05-29 14:25:14,164 - wine-quality-mlops - INFO - Data download completed.
+2025-05-29 14:25:14,164 - wine-quality-mlops - INFO - Directory already exists: artifacts/data_ingestion
+2025-05-29 14:25:14,166 - wine-quality-mlops - INFO - Extracted files to: artifacts/data_ingestion
+2025-05-29 14:25:14,166 - wine-quality-mlops - INFO - Data extraction completed.
+2025-05-29 14:25:14,166 - wine-quality-mlops - INFO - Data Ingestion Pipeline completed successfully.
+2025-05-29 14:25:14,166 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Data Ingestion Pipeline completed! <<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 14:25:14,166 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Starting the Data Validation Pipeline... <<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 14:25:14,168 - wine-quality-mlops - INFO - YAML file loaded from config/config.yaml
+2025-05-29 14:25:14,170 - wine-quality-mlops - INFO - YAML file loaded from schema.yaml
+2025-05-29 14:25:14,170 - wine-quality-mlops - INFO - Created directory: artifacts
+2025-05-29 14:25:14,171 - wine-quality-mlops - INFO - Created directory: artifacts/data_validation
+2025-05-29 14:25:14,171 - wine-quality-mlops - INFO - Data Validation Pipeline started.
+2025-05-29 14:25:14,171 - wine-quality-mlops - INFO - Validating all columns against the schema...
+2025-05-29 14:25:14,175 - wine-quality-mlops - INFO - Data Validation Pipeline completed successfully.
+2025-05-29 14:25:14,175 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Data Validation Pipeline completed! <<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 14:25:14,175 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Starting the Data Transformation Pipeline... <<<<<<<<<<<<<<<<<<<<<<<
+2025-05-29 14:25:14,178 - wine-quality-mlops - INFO - YAML file loaded from config/config.yaml
+2025-05-29 14:25:14,183 - wine-quality-mlops - INFO - YAML file loaded from schema.yaml
+2025-05-29 14:25:14,184 - wine-quality-mlops - INFO - Created directory: artifacts
+2025-05-29 14:25:14,184 - wine-quality-mlops - INFO - Created directory: artifacts/data_transformation
+2025-05-29 14:25:14,184 - wine-quality-mlops - INFO - Data Transformation Pipeline started.
+2025-05-29 14:25:14,184 - wine-quality-mlops - INFO - Starting train-test splitting...
+2025-05-29 14:25:14,189 - wine-quality-mlops - INFO - Train data shape: (857, 13), Test data shape: (286, 13)
+2025-05-29 14:25:14,209 - wine-quality-mlops - INFO - Train-test splitting completed successfully.
+2025-05-29 14:25:14,210 - wine-quality-mlops - INFO - Data Transformation Pipeline completed successfully.
+2025-05-29 14:25:14,211 - wine-quality-mlops - INFO - >>>>>>>>>>>>>>>>> Data Transformation Pipeline completed! <<<<<<<<<<<<<<<<<<<<<<<
