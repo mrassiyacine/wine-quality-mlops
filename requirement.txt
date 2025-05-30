@@ -10,5 +10,4 @@ tqdm
 ensure
 joblib
 types - PyYAML
-Flask
-Flask - Cors
+dagshub

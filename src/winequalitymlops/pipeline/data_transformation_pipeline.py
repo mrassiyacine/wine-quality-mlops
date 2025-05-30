@@ -1,5 +1,6 @@
 from src.winequalitymlops import logger
-from src.winequalitymlops.components.data_transformation import DataTransformation
+from src.winequalitymlops.components.data_transformation import \
+    DataTransformation
 from src.winequalitymlops.config.config import ConfigurationManager
 
 TASK_NAME = "Data Transformation Pipeline"
