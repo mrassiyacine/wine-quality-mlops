@@ -1,14 +1,15 @@
 from src.winequalitymlops import logger
-from src.winequalitymlops.pipeline.data_ingestion_pipeline import \
-    DataIngestionPipeline
-from src.winequalitymlops.pipeline.data_transformation_pipeline import \
-    DataTransformationPipeline
-from src.winequalitymlops.pipeline.data_validation_pipeline import \
-    DataValidationPipeline
-from src.winequalitymlops.pipeline.model_evaluation_pipeline import \
-    ModelEvaluationPipeline
-from src.winequalitymlops.pipeline.model_trainer_pipeline import \
-    ModelTrainerPipeline
+from src.winequalitymlops.pipeline.data_ingestion_pipeline import DataIngestionPipeline
+from src.winequalitymlops.pipeline.data_transformation_pipeline import (
+    DataTransformationPipeline,
+)
+from src.winequalitymlops.pipeline.data_validation_pipeline import (
+    DataValidationPipeline,
+)
+from src.winequalitymlops.pipeline.model_evaluation_pipeline import (
+    ModelEvaluationPipeline,
+)
+from src.winequalitymlops.pipeline.model_trainer_pipeline import ModelTrainerPipeline
 
 if __name__ == "__main__":
     logger.info(
