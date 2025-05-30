@@ -1,2 +1,4 @@
 # wine-quality-mlops
 This project predicts wine quality using machine learning. It features a full MLOps pipeline with data ingestion, validation, training, evaluation, and a Flask web app for user-friendly predictions.
+
+![Architecture Diagram](images/architecture.png)
