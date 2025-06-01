@@ -2,12 +2,12 @@ pandas
 mlflow
 notebook
 numpy
-scikit - learn
+scikit-learn
 matplotlib
-python - box
+python-box
 pyYAML
 tqdm
 ensure
 joblib
-types - PyYAML
+types-PyYAML
 dagshub
